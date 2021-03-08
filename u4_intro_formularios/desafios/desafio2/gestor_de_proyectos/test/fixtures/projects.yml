@@ -2,20 +2,14 @@
 
 one:
   name: MyString
-  description: MyText
-  start_on: MyString
-  date: MyString
-  finish_on: MyString
-  date: MyString
-  state: MyString
-  interger: MyString
+  descript: MyText
+  state: 1
+  started_on: 2021-03-07
+  finished_on: 2021-03-07
 
 two:
   name: MyString
-  description: MyText
-  start_on: MyString
-  date: MyString
-  finish_on: MyString
-  date: MyString
-  state: MyString
-  interger: MyString
+  descript: MyText
+  state: 1
+  started_on: 2021-03-07
+  finished_on: 2021-03-07

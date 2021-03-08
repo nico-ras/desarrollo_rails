@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+10.times do |i|
+    Project.create(
+        name: "project-#{i+1}", descript: "descripcion del proyecto #{i+1}",
+        state: Project.states.keys.sample,
+        started_on: Date.today - (i).days,
+        finished_on: Date.today + (i).days
+
+    )
+end    
